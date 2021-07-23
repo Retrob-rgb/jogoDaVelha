@@ -1,0 +1,47 @@
+.game{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #34495e;
+    color: #6e0000;
+    border: 6px solid #2c3e50;
+    border-radius: 10px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.game > div {
+    border: 6px solid #2c3e50;
+    border-radius: 2px;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_reset{
+    border: 6px solid #2c3e50;
+    border-radius: 2px;
+    font-family: fantasy;
+    font-weight: bold;
+    margin-left: 47%;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    text-align: center;
+    font-size: 54px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: burlywood;
+}
